@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    width: auto;
+    background-image: url("./images/SuperMegaForceLogo.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top 10px center;
+    background-size: 450px;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    display: inline-block;
+    background-size: contain;
+    padding: 0px;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+    padding-top: 225px;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+div {
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
