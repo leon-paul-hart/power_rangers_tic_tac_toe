@@ -1,30 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+const React = require('react');
+
+const ReactDOM = require('react-dom');
 
 class Square extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             value: null,
         };
-    } 
+    }
 
     render() {
         return (
-            <button className="square" onClick={() => this.setState({value: 'X'})}>
+            <button className="square" onClick={() => this.setState({ value: 'X' })}>
                 {this.state.value}
             </button>
         );
     }
-
 }
 
 class Board extends React.Component {
 
     renderSquare(i) {
-        return <Square value={i}/>;
+        return <Square value={i} />;
     }
 
     render() {
