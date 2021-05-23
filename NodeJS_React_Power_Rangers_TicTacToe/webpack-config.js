@@ -1,5 +1,6 @@
 module.exports = {
     mode: "development",
+    watch: true,
     devtool: 'source-map',
     entry: "./app.tsx",
     output: {
