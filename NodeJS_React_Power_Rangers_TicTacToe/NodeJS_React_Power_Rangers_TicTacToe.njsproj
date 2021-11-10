@@ -32,9 +32,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".dockerignore" />
     <Content Include="css\main.css" />
     <Content Include="dist\app-bundle.js" />
     <Content Include="dist\app-bundle.js.map" />
+    <Content Include="Dockerfile" />
     <Content Include="icons\favicon.ico" />
     <Content Include="images\BlueRanger.png" />
     <Content Include="images\BlueRanger.xcf" />
