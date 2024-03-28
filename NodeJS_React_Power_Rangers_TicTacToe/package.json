@@ -3,7 +3,7 @@
     "name": "Leon-Paul Hart"
   },
   "dependencies": {
-    "express": "4.18.1",
+    "express": "4.19.2",
     "path": "0.12.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
